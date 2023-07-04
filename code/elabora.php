@@ -1,6 +1,6 @@
 <?php
 
-$conn = new mysqli('localhost', 'ultra', 'KSDmc7gmg5qG', 'my_ultra');
+$conn = new mysqli('localhost', 'ultra');
 //apri una connessione
 $nome = $_POST['nome'];
 $cognome=$_POST['cognome'];
